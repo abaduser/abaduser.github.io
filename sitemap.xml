@@ -2,32 +2,32 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
 	
 	<url>
-		<loc>https://abaduser.pw/eleventy-base-blog/blog/examplepost/</loc>
+		<loc>https://abaduser.pw/blog/examplepost/</loc>
 		<lastmod>2018-08-24</lastmod>
 	</url>
 	
 	<url>
-		<loc>https://abaduser.pw/eleventy-base-blog/about/</loc>
-		<lastmod>2024-10-18</lastmod>
+		<loc>https://abaduser.pw/about/</loc>
+		<lastmod>2024-10-19</lastmod>
 	</url>
 	
 	<url>
-		<loc>https://abaduser.pw/eleventy-base-blog/blog/</loc>
-		<lastmod>2024-10-18</lastmod>
+		<loc>https://abaduser.pw/blog/</loc>
+		<lastmod>2024-10-19</lastmod>
 	</url>
 	
 	<url>
-		<loc>https://abaduser.pw/eleventy-base-blog/</loc>
-		<lastmod>2024-10-18</lastmod>
+		<loc>https://abaduser.pw/</loc>
+		<lastmod>2024-10-19</lastmod>
 	</url>
 	
 	<url>
-		<loc>https://abaduser.pw/eleventy-base-blog/tags/</loc>
-		<lastmod>2024-10-18</lastmod>
+		<loc>https://abaduser.pw/tags/</loc>
+		<lastmod>2024-10-19</lastmod>
 	</url>
 	
 	<url>
-		<loc>https://abaduser.pw/eleventy-base-blog/feed/feed.xml</loc>
-		<lastmod>2024-10-18</lastmod>
+		<loc>https://abaduser.pw/feed/feed.xml</loc>
+		<lastmod>2024-10-19</lastmod>
 	</url>
 </urlset>
