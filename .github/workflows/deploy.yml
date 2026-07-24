@@ -20,16 +20,16 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout site content
-        uses: actions/checkout@v4
+        uses: actions/checkout@v7
 
       - name: Checkout thebit generator
-        uses: actions/checkout@v4
+        uses: actions/checkout@v7
         with:
           repository: abaduser/thebit
           path: .thebit
 
       - name: Setup Lua
-        uses: leafo/gh-actions-lua@v10
+        uses: leafo/gh-actions-lua@v13
         with:
           luaVersion: "5.4"
 
@@ -43,7 +43,7 @@ jobs:
         run: env LUA_PATH="./.thebit/?.lua;;" lua ./.thebit/thebit.lua
 
       - name: Upload artifact
-        uses: actions/upload-pages-artifact@v3
+        uses: actions/upload-pages-artifact@v5
         with:
           path: outbox
 
@@ -56,4 +56,4 @@ jobs:
     steps:
       - name: Deploy to GitHub Pages
         id: deployment
-        uses: actions/deploy-pages@v4
+        uses: actions/deploy-pages@v5
